@@ -1,0 +1,3 @@
+The total fare is 17228.99, and the average is 17.211778221778225
+The lowest total fare that was > $0 was 0.96
+The maximum trip distance was 170.0
