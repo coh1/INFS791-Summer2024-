@@ -1,0 +1,284 @@
+question_number|variable|question_text
+1|WRKSTAT|Last week were you working full time, part time, going to school, keeping house, or what?
+1A|HRS1|IF WORKING, FULL OR PART TIME: How many hours did you work last week, at all jobs?
+1B|HRS2|IF WITH A JOB, BUT NOT AT WORK: How many hours a week do you usually work, at all jobs?
+1C|EVWORK|IF RETIRED, IN SCHOOL, KEEPING HOUSE, OR OTHER: Did you ever work for as long as one year?
+2A|OCC|What kind of work do you (did you normally) do? That is, what (is/was) your job called?
+2B||What (do/did) you actually do in that job? Tell me, what (are/were) some of your main duties?
+2C||What kind of place (do/did) you work for?
+2D||What (do/did) they (make/do)?
+2E|WRKSLF|(Are/Were) you self employed or (do/did) you work for someone else?
+2F|WRKGOVT|Are/Were) you employed by the federal, state or local government or by a private employer (including non-profit organizations)?
+2G|COMMUTE|About how much time (does/did) it usually take you to travel to work - about how many minutes?
+3|OCC80|Respondent's Occupation, Prestige, and Industry
+4|MARITAL|Are you currently--married, widowed, divorced, separated, or have you never been married?
+4A|MARTYPE|CODE TYPE OF MARRIAGE
+4B|MARCOHAB|Marital and cohabitation status
+4C|AGEWED|IF EVER MARRIED: How old were you when you first married?
+4D|DIVORCE|IF CURRENTLY MARRIED OR WIDOWED: Have you ever been divorced or legally separated?
+4E|WIDOWED|IF CURRENTLY MARRIED, SEPARATED, OR DIVORCED: Have you ever been widowed?
+5|SPWRKSTA|Last week was your (wife/husband) working full time, part time, going to school, keeping house, or what?
+5A|SPHRS1|IF WORKING, FULL OR PART TIME: How many hours did (he/she) work last week, at all jobs?
+5B|SPHRS2|IF WITH A JOB, BUT NOT AT WORK: How many hours a week does (he/she) usually work, at all jobs?
+5C|SPEVWORK|IF RETIRED, IN SCHOOL, KEEPING HOUSE, OR OTHER: Did (he/she) ever work for as long as one year?
+6A|SPOCC|What kind of work (does/did) your [SPOUSE] normally do? That is, what (is/was) (his/her) job called?
+6B||What (does/did) [SPOUSE] actually do in that job? Tell me, what (are/were) some of (his/her) main duties?
+6C||What kind of place (does/did) [SPOUSE] work for?
+6D||What (do/did) they (make/do)?
+6E|SPWRKSLF|(Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
+6F|SPWRKGVT|(Is/Was)(s/he) employed by the federal, state, or local government or by a private employer (including non-profit organizations)?
+7|SPOCC80|Spouse's Occupation, Prestige, and Industry
+8|COWRKSTA|Last week was your partner working full time, part time, going to school, keeping house, or what?
+8A|COHRS1|IF WORKING, FULL OR PART TIME: How many hours did (he/she) work last week, at all jobs?
+8B|COHRS2|IF WITH A JOB, BUT NOT AT WORK: How many hours a week does (he/she) usually work, at all jobs?
+8C|COEVWORK|IF RETIRED, IN SCHOOL, KEEPING HOUSE, OR OTHER: Did (he/she) ever work for as long as one year?
+9A||What kind of work (does/did) your partner normally do? That is, what (is/was) (his/her) job called?
+9B||What (does/did) [PARTNER] actually do in that job? Tell me, what (are/were) some of (his/her) main duties?
+9C||What kind of place (does/did) [PARTNER] work for?
+9D||What (do/did) they (make/do)?
+9E|COWRKSLF|(Is/Was) (he/she) self-employed or (does/did) (he/she) work for someone else?
+10A|PAOCC16|What kind of work did your father (FATHER SUBSTITUTE) normally do while you were growing up? That is, what \was his job called?
+10B||What did he actually do in that job? Tell me, what were some of his main duties?
+10C||What kind of place did he work for?
+10D||What did they (make/do)?
+10E|PAWRKSLF|Was he self-employed or did he work for someone else?
+11|PAOCC80|Father's Occupation, Prestige, and Industry
+12A|MAOCC80|What kind of work did your (mother/MOTHER SUBSTITUTE) usually do while you were growing up? That is, what was her job called?
+12B||IF NOT ALREADY ANSWERED, ASK: What did she actually do in that job? Tell me, what were some of her main duties?
+12C||What kind of place did she work for?
+12D||IF NOT ALREADY ANSWERED, ASK: What did they (make/do)?
+12E|MAWRKSLF|IF ALREADY ANSWERED, CODE WITHOUT ASKING: Was she self-employed, or did she work for someone else?
+13|FOUND|Case was retrievable in 2012
+14A|OCCINDV|R's occ/ind verbatim retrieved
+14B|OCCSTATUS|OCC10 coding status
+14C|OCCTAG|OCC10 coding tag
+14D|INDSTATUS|INDUS10 coding status
+14E|INDTAG|INDUS10 coding tag
+15A|PAOCCINDV|R's father's occ/ind verbatim retrieved
+15B|PAOCCSTATUS|PAOCC10 coding status
+15C|PAOCCTAG|PAOCC10 coding tag
+15D|PAINDSTATUS|PAIND10 coding status
+15E|PAINDTAG|PAIND10 coding tag
+16A|SPOCCINDV|R's spouse's occ/ind verbatim retrieved
+16B|SPOCCSTATUS|SPOCC10 coding status
+16C|SPOCCTAG|SPOCC10 coding tag
+16D|SPINDSTATUS|SPIND10 coding status
+16E|SPINDTAG|SPIND10 coding tag
+17A|MAOCCINDV|R's mother's occ/ind verbatim retrieved
+17B|MAOCCSTATUS|MAOCC10 coding status
+17C|MAOCCTAG|MAOCC10 coding tag
+17D|MAINDSTATUS|MAIND10 coding status
+17E|MAINDTAG|MAIND10 coding tag
+18|SIBS|How many brothers and sisters did you have? Please count those born alive, but no longer living, as well as those alive now. Also include stepbrothers and stepsisters, and children adopted by your parents.
+19|CHILDS|How many children have you ever had? Please count all that were born alive at any time (including any you had from a previous marriage).
+20|AGE|RESPONDENT'S AGE
+21|AGEKDBRN|How old were you when your first child was born?
+21A||What is the highest grade in elementary school or high school that (you/your father/ your mother/your [husband/wife]) finished and got credit for?
+21B||IF FINISHED 9th-12th GRADE OR DK*: Did (you/he/she) ever get a high school diploma or a GED certificate?
+21C||Did (you/he/she) complete one or more years of college for credit--not including schooling such as business college, technical or vocational school?
+21D||Do you (Does [he/she]) have any college degrees? (IF YES: What degree or degrees?)
+22|EDUC|RESPONDENT'S EDUCATION
+23|PAEDUC|RESPONDENT'S FATHER'S (FATHER SUBSTITUTE'S) EDUCATION
+24|MAEDUC|RESPONDENT'S MOTHER'S (SUBSTITUTE MOTHER'S) EDUCATION
+25|SPEDUC|RESPONDENT'S SPOUSE'S EDUCATION
+26|COEDUC|RESPONDENT'S PARTNER'S EDUCATION
+27|DEGREE|RESPONDENT'S DEGREE
+28|PADEG|RESPONDENT'S FATHER'S (SUBSTITUTE FATHER'S) DEGREE
+29|MADEG|RESPONDENT'S MOTHER'S (SUBSTITUTE MOTHER'S) DEGREE
+30|SPDEG|RESPONDENT'S SPOUSE'S DEGREE
+31|CODEG|RESPONDENT'S PARTNER'S DEGREE
+32|MAJOR1|What was your major or field of study when you received your (RESPONDENT'S COLLEGE DEGREE) degree?
+33|DIPGED|Was that a diploma awarded by your high school at graduation at the end of 12th grade, a GED awarded after you took a test, or something else?
+34|SPDIPGED|Was that a diploma awarded by (RESPONDENT'S SPOUSE)'s high school at graduation at the end of 12th grade, a GED awarded after (RESPONDENT'S SPOUSE) took a test, or something else?
+35|CODIPGED|Was that a diploma awarded by (RESPONDENT'S PARTNER'S) high school at graduation at the end of 12th grade, a GED awarded after (RESPONDENT'S PARTNER) took a test, or something else?
+36|WHENHS|In what year did you receive your high school degree?
+37|WHENCOL|In what year did you receive the (COLLEGE NAME) degree?
+38|COLNAME|What is the name of the college that awarded your {response to RDEGHIfill} degree?
+38A|SECTOR|Sector of Institution
+38B|EFTOTLT|Total Fall Enrollment
+38C|BARATE|Graduation Rate
+38D|GRADTOUNDER|Ratio of Graduate to Undergraduate Students
+39A|VOEDCOL|Besides attending college for credit, did you complete any courses for credit at an institution such as a business college, technical or vocational school?
+39B|VOEDNME1|IF YES: What institution was that?
+39C|VOEDNCOL|Did you complete any courses for credit at an institution such as a business college, technical or vocational school?
+39D|VOEDNME2|IF YES: What institution was that?
+40|SPCOLNME|What is the name of the college that awarded your (husband's/wife's) [HIGHEST DEGREE]?
+40A|SPSECTOR|Sector of Institution
+40B|SPEFTOTLT|Total Fall Enrollment
+40C|SPBARATE|Graduation Rate
+40D|SPGRADTOUNDER|Ratio of Graduate to Undergraduate students
+41|COCOLNME|What is the name of the college that awarded your partner's [HIGHEST DEGREE]?
+41A|COSECTOR|Sector of Institution
+41B|COEFTOTLT|Total Fall Enrollment
+41C|COBARATE|Graduation Rate
+41D|COGRADTOUNDER|Ratio of Graduate to Undergraduate students
+42|SEX|CODE RESPONDENT'S SEX
+43|RACE|What race do you consider yourself? RECORD VERBATIM AND CODE. CODE WITHOUT ASKING ONLY IF THERE IS NO DOUBT IN YOUR MIND.
+44|RES16|Which of the categories on this card comes closest to the type of place you were living in when you were 16 years old?
+45|REG16|In what state or foreign country were you living when you were 16 years old?
+45A|MOBILE16|When you were 16 years old, were you living in this same (city/town/county)?
+46|FAMILY16|Were you living with both your own mother and father around the time you were 16? (IF NO: With whom were you living around that time?) (IF R. MARRIED OR LEFT HOME BY AGE 16, PROBE "BEFORE THAT.")
+46A|FAMDIF16|IF NOT LIVING WITH BOTH OWN MOTHER AND FATHER: What happened?
+47|MAWORK|Did your mother ever work for pay for as long as a year, after she was married?
+47A|MAWKBABY|Did she work for as long as a year before you started first grade?
+47B|MAWKBORN|Did she work as long as a year after you were born and before you started first grade?
+47C|MAWK16|Did she work for as long as a year around the time you were 16?
+48|MAWRKGRW|Did your mother ever work for pay for as long as a year, while you were growing up?
+49|INCOM16|Thinking about the time when you were 16 years old, compared with American families in general then, would you say your family income was-- far below average, below average, average, above average, or far above average? (PROBE: Just your best guess.)
+50|BORN|Were you born in this country?
+51|PARBORN|Were both your parents born in this country?
+52||Were all of your four grandparents born in this country?
+52A|GRANBORN|How many were born outside the United States?
+53|HOMPOP|Household Size and Composition
+53A|BABIES|NUMBER OF MEMBERS UNDER 6 YEARS:
+53B|PRETEEN|NUMBER OF MEMBERS 6 TO 12 YEARS.
+53C|TEENS|NUMBER OF MEMBERS 13 TO 17 YEARS OLD.
+53D|ADULTS|NUMBER OF MEMBERS OVER 17 YEARS OLD.
+54||Is everyone in the household related to you in some way?
+54A|UNRELAT|IF NO: How many persons in the household are not related to you in any way?
+55|EARNRS|Just thinking about your family now--those people in the household who are related to you . . . How many persons in the family, including yourself, earned any money last year - [the previous year] - from any job or employment?
+56|INCOME|In which of these groups did your total family income, from all sources, fall last year before taxes, that is? Just tell me the letter.
+57||Did you earn any income from (OCCUPATION DESCRIBED IN OCC-INDUSTRY) in [the previous year]?
+57A|RINCOME|IF YES: In which of these groups did your earnings from (OCCUPATION IN OCC) for last year--[the previous year]--fall? That is, before taxes or other deductions. Just tell me the letter.
+58|INCOME72|In which of these groups did your total family income, from all sources, fall last year--1971--before taxes, that is?
+59|INCOME77|Family income on 1977-1980 surveys. For question wording, see INCOME.
+60|RINCOM77|Respondent's income on 1977/78/80 surveys.
+61|INCOME82|Family income on 1982-85 surveys.
+62|RINCOM82|Respondent's income on 1982-85 surveys.
+63|INCOME86|Family income on 1986-90 surveys.
+64|RINCOM86|Respondent's income on 1986-90 surveys.
+65|INCOME91|Family income on the 1991-96 surveys.
+66|RINCOM91|Respondent's income on the 1991-96 surveys.
+67|INCOME98|Family income on the 1998, 2000, 2002, and 2004 surveys.
+68|RINCOM98|Respondent's income on the 1998, 2000, 2002, and 2004 surveys.
+69|INCOME06|In which of these groups did your total family income, from all sources, fall last year before taxes, that is. Just tell me the letter.
+70|RINCOM06|In which of these groups did your earnings from (OCC), from all sources for [last year] fall? That is, before taxes or other deductions. Just tell me the letter.
+69|INCOME16|In which of these groups did your total family income, from all sources, fall last year before taxes, that is. Just tell me the letter.
+70|RINCOM16|In which of these groups did your earnings from (OCC), from all sources for [last year] fall? That is, before taxes or other deductions. Just tell me the letter.
+71A|REGION|REGION OF INTERVIEW
+71B|XNORCSIZ|NORC SIZE OF PLACE
+71C|SRCBELT|SRC (SURVEY RESEARCH CENTER, UNIVERSITY OF MICHIGAN) NEW BELT CODE
+71D|SIZE|SIZE OF PLACE. Size of place in thousands is a 4 digit code which provides actual size of place of interview. Remember when using this code to add 3 zeros. Listed below are the frequencies for gross population categories.
+72A|DOTDATA|Occupational Relationship with Data.
+72B|DOTPEOP|Occupational Relationship with People.
+72C|DOTTHNG|Occupational Relationship with Things.
+72D|DOTGED|Occupational General Educational Development (GED).
+72E|DOTSVP|Occupation Specific Vocation Preparation (SVP).
+72F|DOTPRES|Occupational Prestige
+73A|SPDOTDAT|Spouse's Occupational Relationship with Data.
+73B|SPDOTPEO|Spouse's Occupational Relationship with People.
+73C|SPDOTTHN|Spouse's Occupational Relationship with Things.
+73D|SPDOTGED|Spouse's Occupational General Educational Development (GED).
+73E|SPDOTSVP|Spouse's Occupation Specific Vocation Preparation (SVP).
+73F|SPDOTPRE|Spouse's Occupational Prestige.
+74A|PADOTDAT|Father's Occupational Relationship with Data.
+74B|PADOTPEO|Father's Occupational Relationship with People.
+74C|PADOTTHN|Father's Occupational Relationship with Things.
+74D|PADOTGED|Father's Occupational General Educational Development (GED).
+74E|PADOTSVP|Father's Occupation Specific Vocation Preparation (SVP).
+74F|PADOTPRE|Father's Occupational Prestige.
+75|PARTYID|Generally speaking, do you usually think of yourself as a Republican, Democrat, Independent, or what?
+76A|VOTE68|Now in 1968, you remember that Humphrey ran for President on the Democratic ticket against Nixon for the Republicans, and Wallace as an Independent. Do you remember for sure whether or not you voted in that election?
+76B|PRES68|IF VOTED: Did you vote for Humphrey, Nixon, or Wallace?
+76C|IF68WHO|IF DID NOT VOTE: Who would you have voted for, for President, if you had voted?
+76D|VOTE72|In 1972, you remember that McGovern ran for President on the Democratic ticket against Nixon for the Republicans. Do you remember for sure whether or not you voted in that election?
+76E|PRES72|IF VOTED: Did you vote for McGovern or Nixon?
+76F|IF72WHO|IF DID NOT VOTE: Who would you have voted for, for President, if you had voted?
+76G|VOTE76|In 1976, you remember that Carter ran for President on the Democratic ticket against Ford for the Republicans. Do you remember for sure whether or not you voted in that election?
+76H|PRES76|IF VOTED: Did you vote for Carter or Ford?
+76I|IF76WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76J|VOTE80|In 1980, you remember that Carter ran for President on the Democratic ticket against Reagan for the Republicans, and Anderson as an Independent. Do you remember for sure whether or not you voted in that election?
+76K|PRES80|IF VOTED: Did you vote for Carter, Reagan, or Anderson?
+76L|IF80WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76M|VOTE84|In 1984, you remember that Mondale ran for President on the Democratic ticket against Reagan for the Republicans. Do you remember for sure whether or not you voted in that election?
+76N|PRES84|IF VOTED: Did you vote for Mondale or Reagan?
+76O|IF84WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76P|VOTE88|In 1988, you remember that Dukakis ran for President on the Democratic ticket against Bush for the Republicans. Do you remember for sure whether or not you voted in that election?
+76Q|PRES88|IF VOTED: Did you vote for Dukakis or Bush?
+76R|IF88WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76S|VOTE92|In 1992, you remember that Clinton ran for President on the Democratic ticket against Bush for the Republicans and Perot as an Independent. Do you remember for sure whether or not you voted in that election?
+76T|PRES92|IF VOTED: Did you vote for Clinton, Bush, or Perot?
+76U|IF92WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76V|VOTE96|In 1996, you remember that Clinton ran for President on the Democratic ticket against Dole for the Republicans and Perot for the Reform Party. Do you remember for sure whether or not you voted in that election?
+76W|PRES96|IF VOTED: Did you vote for Clinton, Bush, or Perot?
+76X|IF96WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76Y|VOTE00|In 2000, you remember that Gore ran for President on the Democratic ticket against Bush for the Republicans . Do you remember for sure whether or not you voted in that election?
+76Z|PRES00|IF VOTED: Did you vote for Gore or Bush?
+76AA|IF00WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76AB|VOTE04|In 2004, you remember that Kerry ran for President on the Democratic ticket against Bush for the Republicans. Do you remember for sure whether or not you voted in that election?
+76AC|PRES04|IF VOTED: Did you vote for Kerry or Bush?
+76AD|IF04WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76AE|VOTE08|In 2008, you remember that Obama ran for President on the Democratic ticket against McCain for the Republicans. Do you remember for sure whether or not you voted in that election?
+76AF|PRES08|IF VOTED: Did you vote for Obama or McCain?
+76AG|IF08WHO|IF DID NOT VOTE OR INELIGIBLE: Who would you have voted for, for President, if you had voted?
+76AH|VOTE12|In 2012, you remember that Obama ran for President on the Democratic ticket against Romney for the Republicans. Do you remember for sure whether or not you voted in that election?
+76AI|PRES12|Did you vote for Obama or Romney?
+76AJ|IF12WHO|Who would you have voted for, for president, if you had voted?
+76A|POLVIEWS|We hear a lot of talk these days about liberals and conservatives. I'm going to show you a seven-point scale on which the political views that people might hold are arranged from extremely liberal--point 1--to extremely conservative--point 7. Where would you place yourself on this scale?
+76B|POLVIEWY|We hear a lot of talk these days about liberals and conservatives. I'm going to show you a seven-point scale on which the political views that people are might hold arranged from extremely liberal--point 1--to extremely conservative--point 7. Where would you place yourself on this scale, or haven't you thought much about this?
+76C|POLVIEWX|In political matters, people talk of "the left" and "the right." How would you place your views on this scale?
+77||We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+77A|NATSPAC|Space exploration program
+77B|NATENVIR|Improving and protecting the environment
+77C|NATHEAL|Improving and protecting the nation's health
+77D|NATCITY|Solving the problems of the big cities
+77E|NATCRIME|Halting the rising crime rate
+77F|NATDRUG|Dealing with drug addiction
+77G|NATEDUC|Improving the nation's education system
+77H|NATRACE|Improving the conditions of Blacks
+77I|NATARMS|The military, armaments and defense
+77J|NATAID|Foreign aid
+77K|NATFARE|Welfare
+77L|NATROAD|Highways and bridges
+77M|NATSOC|Social Security
+77N|NATMASS|Mass Transportation
+77O|NATPARK|Parks and recreation
+77P|NATCHILD|Assistance for childcare
+77Q|NATSCI|Supporting scientific research
+77R|NATENRGY|Developing alternative energy sources
+78||We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+78A|NATSPACY|Space exploration
+78B|NATENVIY|The environment
+78C|NATHEALY|Health
+78D|NATCITYY|Assistance to big cities
+78E|NATCRIMY|Law enforcement
+78F|NATDRUGY|Drug rehabilitation
+78G|NATEDUCY|Education
+78H|NATRACEY|Assistance to blacks
+78I|NATARMSY|National defense
+78J|NATAIDY|Assistance to other countries
+78K|NATFAREY|Assistance to the poor
+79||We are faced with many problems in this country, none of which can be solved easily or inexpensively. I'm going to name some of these problems, and for each one I'd like you to tell me whether you think we're spending too much money on it, too little money, or about the right amount. First (READ ITEM A) . . . are we spending too much, too little, or about the right amount on (ITEM)?
+79A|NATSPACZ|Advancing space exploration
+79B|NATENVIZ|Improving and protecting the environment
+79C|NATHEALZ|Improving and protecting the nation's health
+79D|NATCITYZ|Solving the problems of the big cities
+79E|NATCRIMZ|Reducing crime
+79F|NATDRUGZ|Reducing drug addiction
+79G|NATEDUCZ|Improving the nation's education system
+79H|NATRACEZ|Improving the conditions of Blacks
+79I|NATARMSZ|Strengthening national defense
+79J|NATAIDZ|Helping other countries
+79K|NATFAREZ|Caring for the poor
+79L|NATROADZ|Improving the condition of highways and bridges
+79M|NATSOCZ|Protecting Social Security
+79N|NATMASSZ|Improving mass transportation
+79O|NATPARKZ|Improving parks and recreation
+80||On these cards are some opinions about the government and the economy. For each one I'd like you to tell me whether you strongly agree, somewhat agree, somewhat disagree or strongly disagree.
+80A|EQUAL1|In our society everyone must look out for himself. It is of little use to unite with others and fight for one's goals in politics or in unions.
+80B|EQUAL2|The economy can run only if businessmen make good profits. That benefits everyone in the end.
+80C|EQUAL3|The government must see to it that everyone has a job and that prices are stable, even if the rights of businessmen have to be restricted.
+80D|EQUAL4|It is the responsibility of government to meet everyone's needs, even in case of sickness, poverty, unemployment, and old age.
+80E|EQUAL5|If social welfare benefits such as disability, unemployment compensation, and early retirement pensions are as high as they are now, it only makes people not want to work anymore.
+80F|EQUAL6|All in all, one can live well in America.
+80G|EQUAL7|Generally speaking, business profits are distributed fairly in the United States.
+80H|EQUAL8|If someone has a high social or economic position, that indicates the person has special abilities or great accomplishments.
+81||Here are different opinions about social differences in this country. Please tell me for each one whether you strongly agree, somewhat, agree, somewhat disagree, or strongly disagree.
+81A|USCLASS1|In the United States traditional divisions between owners and workers still remain. A person's social standing depends upon whether he/she belongs to the upper or lower class.
+81B|USCLASS2|In the United States there are still great differences between social levels, and what one can achieve in life depends mainly upon one's family background.
+81C|USCLASS3|America has an open society. What one achieves in life no longer depends on one's family background, but on the abilities one has and the education one acquires.
+81D|USCLASS4|What one gets in life hardly depends at all on one's own efforts, but rather on the economic situation, job opportunities, union agreements, and the social services provided by the government.
+81E|USCLASS5|Personal income should not be determined solely by one's work. Rather, everybody should get what he/she needs to provide a decent life for his/her family.
+81F|USCLASS6|Only if differences in income and social standing are large enough is there an incentive for individual effort.
+81G|USCLASS7|Differences in social standing between people are acceptable because they basically reflect what people made out of the opportunities they had.
+81H|USCLASS8|All in all, I think social differences in this country are justified.

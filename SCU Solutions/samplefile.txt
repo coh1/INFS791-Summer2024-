@@ -1,0 +1,4 @@
+This is a sample text file
+that is used with the
+Stop, Code, and Understand!
+exercise 5.1.
